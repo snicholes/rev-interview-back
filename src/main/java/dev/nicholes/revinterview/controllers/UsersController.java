@@ -14,7 +14,7 @@ import dev.nicholes.revinterview.services.AssociateService;
 
 @RestController
 @RequestMapping(path="/users")
-@CrossOrigin(origins="http://localhost:4200/")
+@CrossOrigin(origins="http://rev-interview.s3-website.us-east-2.amazonaws.com/")
 public class UsersController {
 	private AssociateService associateServ;
 	

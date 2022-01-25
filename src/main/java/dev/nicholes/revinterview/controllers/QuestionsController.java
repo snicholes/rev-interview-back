@@ -22,7 +22,7 @@ import dev.nicholes.revinterview.services.AssociateService;
 
 @RestController
 @RequestMapping(path="/questions")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="http://rev-interview.s3-website.us-east-2.amazonaws.com/")
 public class QuestionsController {
 	private String appUrl = "http://localhost:8080/questions";
 	private AdminService adminServ;
